@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
 
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
-        dateFormatter.dateFormat = "LLL dd, YYYY, hh:mm:ss a"
+        dateFormatter.dateFormat = "LLL dd, YYYY, h:mm:ss a"
         
         self.title = "Observation"
         

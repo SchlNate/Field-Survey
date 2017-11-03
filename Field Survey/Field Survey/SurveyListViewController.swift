@@ -19,7 +19,7 @@ class SurveyListViewController: UIViewController, UITableViewDelegate, UITableVi
         super.viewDidLoad()
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
-        dateFormatter.dateFormat = "LLL dd, YYYY, hh:mm:ss a"
+        dateFormatter.dateFormat = "LLL dd, YYYY, h:mm:ss a"
         // Do any additional setup after loading the view.
     }
 
