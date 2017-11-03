@@ -15,6 +15,10 @@
 		FF1B6AB31FAB977600E745A8 /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B6AB21FAB977600E745A8 /* Observations.swift */; };
 		FF1B6AB51FAB97AD00E745A8 /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B6AB41FAB97AD00E745A8 /* Classification.swift */; };
 		FF1B6AB71FAB9A7E00E745A8 /* ObservationsJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B6AB61FAB9A7E00E745A8 /* ObservationsJSONParser.swift */; };
+		FF26CEB61FABBB1400149D39 /* ObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26CEB51FABBB1400149D39 /* ObservationsJSONLoader.swift */; };
+		FF26CEB81FABBEE100149D39 /* SurveyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26CEB71FABBEE100149D39 /* SurveyListViewController.swift */; };
+		FF26CEBA1FABC0C500149D39 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26CEB91FABC0C500149D39 /* DetailViewController.swift */; };
+		FF26CEBE1FABC7AF00149D39 /* ObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26CEBD1FABC7AF00149D39 /* ObservationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		FF1B6AB21FAB977600E745A8 /* Observations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
 		FF1B6AB41FAB97AD00E745A8 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		FF1B6AB61FAB9A7E00E745A8 /* ObservationsJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONParser.swift; sourceTree = "<group>"; };
+		FF26CEB51FABBB1400149D39 /* ObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsJSONLoader.swift; sourceTree = "<group>"; };
+		FF26CEB71FABBEE100149D39 /* SurveyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyListViewController.swift; sourceTree = "<group>"; };
+		FF26CEB91FABC0C500149D39 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FF26CEBD1FABC7AF00149D39 /* ObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,9 @@
 				FF1B6AA41FAB93E200E745A8 /* Assets.xcassets */,
 				FF1B6AA61FAB93E200E745A8 /* LaunchScreen.storyboard */,
 				FF1B6AA91FAB93E200E745A8 /* Info.plist */,
+				FF26CEB71FABBEE100149D39 /* SurveyListViewController.swift */,
+				FF26CEB91FABC0C500149D39 /* DetailViewController.swift */,
+				FF26CEBD1FABC7AF00149D39 /* ObservationTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -77,6 +88,7 @@
 				FF1B6AB21FAB977600E745A8 /* Observations.swift */,
 				FF1B6AB41FAB97AD00E745A8 /* Classification.swift */,
 				FF1B6AB61FAB9A7E00E745A8 /* ObservationsJSONParser.swift */,
+				FF26CEB51FABBB1400149D39 /* ObservationsJSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,10 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF26CEBE1FABC7AF00149D39 /* ObservationTableViewCell.swift in Sources */,
 				FF1B6AB31FAB977600E745A8 /* Observations.swift in Sources */,
 				FF1B6AB71FAB9A7E00E745A8 /* ObservationsJSONParser.swift in Sources */,
+				FF26CEB81FABBEE100149D39 /* SurveyListViewController.swift in Sources */,
 				FF1B6A9E1FAB93E200E745A8 /* AppDelegate.swift in Sources */,
 				FF1B6AB51FAB97AD00E745A8 /* Classification.swift in Sources */,
+				FF26CEB61FABBB1400149D39 /* ObservationsJSONLoader.swift in Sources */,
+				FF26CEBA1FABC0C500149D39 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
